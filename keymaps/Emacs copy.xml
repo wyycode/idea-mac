@@ -94,6 +94,12 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="Emacs+.Recenter">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="Emacs+.SwitchToBuffer">
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta b" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="alt f3" />
