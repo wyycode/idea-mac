@@ -94,6 +94,10 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorKillToWordStart">
+    <keyboard-shortcut first-keystroke="alt delete" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
