@@ -194,6 +194,13 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="XDebugger.CopyWatch" />
 </keymap>
