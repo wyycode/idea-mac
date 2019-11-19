@@ -49,6 +49,10 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
   <action id="Console.Jdbc.Execute">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -204,6 +208,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt g" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="period" />
     <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="Macro.saveAndBuild">
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
