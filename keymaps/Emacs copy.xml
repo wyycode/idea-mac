@@ -50,6 +50,14 @@
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="Console.TableResult.CloneRow" />
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="DatabaseView.CopyAction" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
@@ -109,7 +117,7 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="Emacs+.SwitchToBuffer">
-    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta b" />
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="b" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
