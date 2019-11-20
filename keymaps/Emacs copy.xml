@@ -4,6 +4,10 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta x" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -12,6 +16,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="shift alt minus" />
     <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta a" />
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
@@ -41,16 +49,40 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
+  <action id="Console.Jdbc.Execute">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Console.TableResult.CloneRow" />
+  <action id="Console.TableResult.Submit">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="DatabaseView.CopyAction" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
@@ -62,12 +94,20 @@
     <keyboard-shortcut first-keystroke="ctrl delete" />
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl b" />
@@ -84,6 +124,26 @@
     <keyboard-shortcut first-keystroke="alt m" />
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt b" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -98,7 +158,11 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="Emacs+.SwitchToBuffer">
-    <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta b" />
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="b" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="meta f12" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
@@ -146,6 +210,24 @@
     <keyboard-shortcut first-keystroke="ctrl alt g" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="period" />
     <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="Macro.saveAndBuild">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="XDebugger.CopyWatch" />
