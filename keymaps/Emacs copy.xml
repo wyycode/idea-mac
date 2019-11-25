@@ -43,6 +43,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt h" />
     <keyboard-shortcut first-keystroke="meta alt h" />
   </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="meta alt k" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="k" />
@@ -180,7 +184,7 @@
     <keyboard-shortcut first-keystroke="alt period" />
   </action>
   <action id="Git.Commit.And.Push.Executor">
-    <keyboard-shortcut first-keystroke="meta alt k" />
+    <keyboard-shortcut first-keystroke="meta alt p" />
   </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="meta x" second-keystroke="meta 1" />
