@@ -18,6 +18,14 @@
           <option name="url" value="https://github.com/ctripcorp/apollo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://120.27.60.67:18480/mes-java/cmfg.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://120.27.60.67:18480" />
+          <option name="userName" value="wangyueyang" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
